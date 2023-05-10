@@ -1,0 +1,32 @@
+.home {
+  display: flex; align-items: flex-start; justify-content: center;
+  flex-direction: column; gap: 17px;
+  background: #fefefe;
+  padding: 0 0 0 30px;
+  text-align: left;
+
+  &__title {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 38px;
+  }
+  
+  &__subtitle {
+    font-style: italic;
+    font-size: 22px;
+    width: 580px;
+  }
+
+  &__btn {
+    background: #fffea4;
+    padding: 9px 18px;
+    font-size: 20px;
+    color: #227;
+
+    &:hover {
+      transform: scale( 1.03 );
+    }
+  }
+}
+
+// пошел нахуй долбаеб
